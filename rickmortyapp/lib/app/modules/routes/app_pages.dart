@@ -1,0 +1,1 @@
+// daftar halaman, auth guard

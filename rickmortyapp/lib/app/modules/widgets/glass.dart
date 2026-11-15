@@ -1,0 +1,1 @@
+// komponen glass (kaca)
