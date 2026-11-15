@@ -1,3 +1,3 @@
 # rickmortyapp
 
-A new Flutter project.
+Aplikasi karakter latihan responsi PAM
