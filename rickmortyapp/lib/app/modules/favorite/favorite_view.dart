@@ -1,14 +1,3 @@
-// ====================================================================
-// FILE    : lib/app/modules/favorite/favorite_view.dart
-// LAPISAN : Tampilan / Favorite Screen
-//
-// GUNANYA :
-//   Daftar karakter favorit. Dismissible = hapus dengan swipe (soal 4b),
-//   Snackbar setelah dihapus (4c), pesan jika daftar kosong (4d).
-//
-// DIPAKAI OLEH: Tab kedua di MainView.
-// ====================================================================
-
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

@@ -1,14 +1,3 @@
-// ====================================================================
-// FILE    : lib/app/modules/auth/register_view.dart
-// LAPISAN : Tampilan / Halaman Register
-//
-// GUNANYA :
-//   Form username, password, dan konfirmasi password.
-//   Tombol Register memanggil AuthController.register().
-//
-// DIPAKAI OLEH: Route /register.
-// ====================================================================
-
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

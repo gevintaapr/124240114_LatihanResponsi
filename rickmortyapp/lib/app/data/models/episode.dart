@@ -1,16 +1,3 @@
-// untuk membentuk data episode
-
-// ====================================================================
-// FILE    : lib/app/data/models/episode.dart
-// LAPISAN : Data / Model
-//
-// GUNANYA :
-//   Cetakan untuk satu episode. Hanya butuh nama, tanggal tayang (air_date),
-//   dan kode episode (misalnya S01E01).
-//
-// DIPAKAI OLEH: ApiProvider dan EpisodeController.
-// ====================================================================
-
 class Episode {
   final int id;
   final String name;

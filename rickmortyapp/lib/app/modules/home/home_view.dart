@@ -1,15 +1,3 @@
-// ====================================================================
-// FILE    : lib/app/modules/home/home_view.dart
-// LAPISAN : Tampilan / Home Screen
-//
-// GUNANYA :
-//   Kolom pencarian, chip filter status, dan grid kartu karakter.
-//   Obx(...) membuat bagian UI menggambar ulang otomatis setiap kali
-//   variabel .obs di HomeController berubah.
-//
-// DIPAKAI OLEH: Tab pertama di MainView.
-// ====================================================================
-
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

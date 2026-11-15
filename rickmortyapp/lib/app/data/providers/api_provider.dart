@@ -1,23 +1,3 @@
-// ini untuk atur api nya, biasanya file api_service
-
-// ====================================================================
-// FILE    : lib/app/data/providers/api_provider.dart
-// LAPISAN : Data / Sumber data dari internet (REST API)
-//
-// GUNANYA :
-//   SATU-SATUNYA file yang menghubungi https://rickandmortyapi.com/api.
-//   Endpoint yang dipakai (sesuai soal):
-//     GET /character                    -> daftar karakter
-//     GET /character?status=alive|dead|unknown -> filter status
-//     GET /character?name=...           -> pencarian nama (bonus)
-//     GET /character/{id}               -> detail karakter
-//     GET /episode                      -> daftar episode
-//   Semua kegagalan (tidak ada internet, timeout, server error) diubah menjadi
-//   ApiException yang pesannya bisa langsung ditampilkan ke pengguna.
-//
-// DIPAKAI OLEH: HomeController, DetailController, EpisodeController.
-// ====================================================================
-
 import 'dart:async';
 import 'dart:convert';
 

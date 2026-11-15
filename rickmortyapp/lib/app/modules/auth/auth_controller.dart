@@ -1,16 +1,3 @@
-// ====================================================================
-// FILE    : lib/app/modules/auth/auth_controller.dart
-// LAPISAN : Logika / Login, Register, Logout
-//
-// GUNANYA :
-//   Validasi input, memanggil DbHelper (Hive) untuk cek/simpan akun, lalu
-//   menyimpan sesi ke Shared Preferences lewat SessionService.
-//   Get.offAllNamed() menghapus semua halaman sebelumnya, jadi setelah login
-//   pengguna tidak bisa 'back' ke halaman login, dan sebaliknya saat logout.
-//
-// DIPAKAI OLEH: LoginView, RegisterView, MainView (tombol logout).
-// ====================================================================
-
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

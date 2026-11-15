@@ -1,14 +1,3 @@
-// ====================================================================
-// FILE    : lib/app/modules/detail/detail_controller.dart
-// LAPISAN : Logika / Detail Screen
-//
-// GUNANYA :
-//   Menerima karakter dari Home (Get.arguments) agar langsung tampil,
-//   lalu mengambil data terbaru dari GET /character/{id}.
-//
-// DIPAKAI OLEH: DetailView.
-// ====================================================================
-
 import 'package:get/get.dart';
 
 import '../../data/models/character.dart';

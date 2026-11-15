@@ -1,18 +1,3 @@
-// ini untuk menghubungi database akun hive
-
-// ====================================================================
-// FILE    : lib/app/data/providers/db_helper.dart
-// LAPISAN : Data / Local database (Hive)
-//
-// GUNANYA :
-//   Menyimpan akun pengguna (username + hash password) untuk Login & Register.
-//   Hive adalah database NoSQL key-value: di Android/iOS disimpan sebagai file,
-//   di Chrome disimpan di IndexedDB browser.
-//   Password TIDAK disimpan apa adanya, tapi di-hash dengan SHA-256.
-//
-// DIPAKAI OLEH: AuthController.
-// ====================================================================
-
 import 'dart:convert';
 
 import 'package:crypto/crypto.dart';
